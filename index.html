@@ -3,44 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Max Philip Data Portfolio - Live Site</title>
+    
+    <!-- REVISED TITLE: Focus on Logistics and Operations -->
+    <title>Max Philip | Data Analyst Portfolio (Logistics & R, Tableau, SQL)</title>
+    
+    <!-- OPTIMIZED META TAGS FOR LINKEDIN/SOCIAL MEDIA PREVIEW -->
+    <meta property="og:title" content="Data Analyst Portfolio | Max Philip (Logistics & Operations)" />
+    <meta property="og:description" content="Operational efficiency driven by data analysis. View my work in R, Tableau, and Supply Chain optimization." />
+    <meta property="og:image" content="https://placehold.co/1200x630/1e40af/ffffff?text=Max+Philip%0ALogistics+Portfolio" />
+    <meta property="og:type" content="website" />
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+        :root {
+            --primary-color: #1E40AF; /* Tailwind blue-700 */
+        }
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f7f7f7;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            background-color: #f3f4f6;
             min-height: 100vh;
-            padding: 20px;
+        }
+        .icon-link {
+            transition: all 0.3s ease;
+            color: #6B7280; /* Tailwind gray-500 */
+        }
+        .icon-link:hover {
+            color: var(--primary-color);
         }
     </style>
 </head>
 <body>
-    <!-- Main Content Card -->
-    <div class="max-w-xl w-full bg-white shadow-xl rounded-xl p-8 md:p-12 text-center border-t-4 border-blue-500">
-        <svg class="mx-auto h-12 w-12 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.018A12.001 12.001 0 0012 3C6.485 3 2 7.485 2 13s4.485 10 10 10 10-4.485 10-10c0-2.736-1.11-5.215-2.92-7.079l-1.414 1.414z"/>
-        </svg>
-        <h1 class="text-3xl font-extrabold text-gray-900 mt-4 mb-2">
-            Portfolio Deployment Successful!
-        </h1>
-        <p class="text-lg text-gray-600 mb-6">
-            This is the temporary placeholder for Max Philip's Data Analysis Portfolio.
-        </p>
-        <p class="text-gray-700 font-semibold">
-            The live portfolio content will be updated here shortly.
-        </p>
-        <a href="https://github.com/maxyphilips-lab/maxyphilips" target="_blank" class="mt-6 inline-block bg-gray-800 text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-700 transition duration-300 shadow-md">
-            View Repository Source
-        </a>
-    </div>
 
-    <script>
-        // Check if the page is being served correctly.
-        console.log("index.html loaded successfully. GitHub Pages should now display this content.");
-    </script>
+    <div class="container mx-auto p-4 sm:p-8 max-w-4xl">
+        
+        <!-- HEADER & PROFILE SUMMARY -->
+        <header class="bg-white shadow-lg rounded-xl p-6 mb-8 border-t-4 border-blue-700">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div>
+                    <h1 class="text-4xl font-extrabold text-gray-900">Max Philip</h1>
+                    <!-- REVISED ROLE DESCRIPTION -->
+                    <p class="text-xl text-blue-700 font-semibold mt-1">
+                        Data Analyst | Logistics & Operations Optimization
+                    </p>
+                </div>
+                <!-- Contact Links -->
+                <div class="flex space-x-4 mt-4 md:mt-0 text-lg">
+                    <a href="mailto:email@example.com" class="icon-link" aria-label="Email">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-2-3H5a2 2 0 00-2 2v10a2 2 0 002 2h14a2 2 0 002-2V7a2 2 0 00-2-2z"></path></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="icon-link" aria-label="LinkedIn">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.366-4-3.266-4 0v5.604h-3v-11h3v1.765c1.395-2.54 5-2.616 5-6.839v9.074z"/></svg>
+                        LinkedIn Profile
+                    </a>
+                    <a href="https://github.com/maxyphilips-lab/maxyphilips" target="_blank" class="icon-link" aria-label="GitHub">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.11.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.043-1.609-4.043-1.609-.546-1.385-1.332-1.755-1.332-1.755-1.09-.745.083-.73.083-.73 1.205.085 1.838 1.238 1.838 1.238 1.07 1.833 2.809 1.304 3.491.996.108-.775.419-1.304.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.383 1.235-3.22-.125-.3-.535-1.52.117-3.175 0 0 1.008-.322 3.3-.76a11.365 11.365 0 014.58-.046c2.29.438 3.3 1.055 3.3 1.055.652 1.655.242 2.875.118 3.175.77.837 1.233 1.91 1.233 3.22 0 4.61-2.805 5.625-5.474 5.925.43.37.817 1.107.817 2.236 0 1.61-.015 2.898-.015 3.295 0 .318.216.69.825.575C19.567 21.79 23 17.3 23 12c0-6.627-5.373-12-12-12z" clip-rule="evenodd"/></svg>
+                        GitHub Profile
+                    </a>
+                </div>
+            </div>
+            
+            <p class="mt-6 text-gray-700 leading-relaxed border-t pt-4">
+                Bridging **15 years of deep operational expertise** in Logistics & Supply Chain with advanced data analysis techniques. I specialize in applying R, SQL, and Tableau to solve real-world problems in supply chain efficiency and optimization. My focus is on creating **quantifiable, actionable insights** that drive measurable performance improvements.
+            </p>
+            <div class="mt-4 flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full">R (Tidyverse)</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full">Tableau</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full">SQL</span>
+                <span class="px-3 py-1 bg-red-100 text-red-800 text-sm font-medium rounded-full">Supply Chain Optimization</span>
+                <span class="px-3 py-1 bg-red-100 text-red-800 text-sm font-medium rounded-full">Operations Research</span>
+            </div>
+        </header>
+
+        <h2 class="text-3xl font-bold text-gray-800 mb-6 mt-10 border-b pb-2">Featured Data Project: Logistics & Supply Chain</h2>
+
+        <!-- SINGLE PROJECT SECTION -->
+        <div class="max-w-3xl mx-auto">
+            
+            <!-- PROJECT 1: SUPPLY CHAIN PERFORMANCE AUDIT -->
+            <div class="bg-white shadow-xl rounded-xl p-8 border-l-4 border-indigo-500 hover:shadow-2xl transition duration-300">
+                <h3 class="text-3xl font-bold text-gray-900 mb-4">Supply Chain Performance Audit</h3>
+                <p class="text-indigo-600 font-semibold mb-4 text-lg">R, Tableau, Operations Research</p>
+                
+                <p class="text-gray-700 mb-6 leading-relaxed">
+                    Diagnosed high delivery risk and associated costs by creating a sophisticated **Cost vs. Reliability Trade-off model**. This analytical framework utilized R to prove that systemic infrastructure bottlenecks were the primary driver of inefficiencies, which necessitated a strategic shift in investment away from low-impact supplier changes.
+                </p>
+                
+                <ul class="text-base text-gray-700 space-y-2 mb-8 list-disc list-inside bg-gray-50 p-4 rounded-lg">
+                    <li><strong class="text-gray-900">Key Deliverable:</strong> Identification of the single highest-leverage variable for future optimization and capacity planning.</li>
+                    <li><strong class="text-gray-900">Analytical Techniques:</strong> Engineered a composite Risk Score using R's Tidyverse package for data aggregation and manipulation.</li>
+                    <li><strong class="text-gray-900">Impact:</strong> Provided the quantitative backing for a multi-million dollar capital expenditure recommendation.</li>
+                </ul>
+                
+                <div class="flex flex-wrap gap-4 justify-center">
+                    <a href="https://www.google.com/search?q=YOUR_SUPPLY_CHAIN_GITHUB_REPO_URL_HERE" target="_blank" class="flex items-center px-6 py-3 bg-gray-800 text-white text-base font-medium rounded-lg hover:bg-gray-700 transition transform hover:scale-105 shadow-md">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.11.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.043-1.609-4.043-1.609-.546-1.385-1.332-1.755-1.332-1.755-1.09-.745.083-.73.083-.73 1.205.085 1.838 1.238 1.838 1.238 1.07 1.833 2.809 1.304 3.491.996.108-.775.419-1.304.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.383 1.235-3.22-.125-.3-.535-1.52.117-3.175 0 0 1.008-.322 3.3-.76a11.365 11.365 0 014.58-.046c2.29.438 3.3 1.055 3.3 1.055.652 1.655.242 2.875.118 3.175.77.837 1.233 1.91 1.233 3.22 0 4.61-2.805 5.625-5.474 5.925.43.37.817 1.107.817 2.236 0 1.61-.015 2.898-.015 3.295 0 .318.216.69.825.575C19.567 21.79 23 17.3 23 12c0-6.627-5.373-12-12-12z" clip-rule="evenodd"/></svg>
+                        View R Code (GitHub)
+                    </a>
+                    <a href="https://public.tableau.com/views/SupplyChainAnalysis1_17640997118670/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank" class="flex items-center px-6 py-3 bg-blue-700 text-white text-base font-medium rounded-lg hover:bg-blue-600 transition transform hover:scale-105 shadow-md">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6m4 0a2 2 0 002-2v-4a2 2 0 00-2-2m0 0H9m12 0a2 2 0 00-2-2v-4a2 2 0 00-2-2H9m4 0a2 2 0 002-2V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"></path></svg>
+                        View Tableau Dashboards
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- FOOTER -->
+        <footer class="mt-12 pt-6 border-t text-center text-gray-500 text-sm">
+            <p>&copy; 2025 Max Philip. Focused on Data-Driven Logistics and Operations.</p>
+        </footer>
+
+    </div>
 </body>
 </html>
